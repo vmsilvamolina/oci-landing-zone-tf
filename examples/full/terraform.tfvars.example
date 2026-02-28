@@ -1,0 +1,16 @@
+# Copy this file to terraform.tfvars and fill in your values
+# NEVER commit terraform.tfvars to version control — add it to .gitignore
+
+tenancy_ocid     = "ocid1.tenancy.oc1..aaaaaaaxxxxxxxxxxxxxxxxxxxxxxxxxx"
+user_ocid        = "ocid1.user.oc1..aaaaaaaxxxxxxxxxxxxxxxxxxxxxxxxxx"
+fingerprint      = "xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx"
+private_key_path = "~/.oci/oci_api_key.pem"
+region           = "us-ashburn-1"
+
+owner_email          = "platform-team@yourcompany.com"
+budget_alert_email   = "finance-alerts@yourcompany.com"
+security_alert_email = "security@yourcompany.com"
+
+budget_dev     = 100
+budget_staging = 250
+budget_prod    = 1000
