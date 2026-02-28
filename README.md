@@ -1,8 +1,7 @@
 # OCI Landing Zone Modular
 
-> Terraform modules to deploy a production-ready, CIS-aligned Landing Zone on Oracle Cloud Infrastructure — designed for teams that want to start lean and grow incrementally.
+> Terraform modules to deploy a production-ready, CIS-aligned Landing Zone on Oracle Cloud Infrastructure.
 
-[![Terraform Validate](https://github.com/your-org/oci-landing-zone/actions/workflows/terraform-validate.yml/badge.svg)](https://github.com/your-org/oci-landing-zone/actions)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![OCI Provider](https://img.shields.io/badge/OCI_Provider-%3E%3D5.0-red)](https://registry.terraform.io/providers/oracle/oci/latest)
 
